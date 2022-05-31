@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chat BULBASAUR</title>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
+  <style>
+      * {
+        transition: ease 1s;
+        margin-top: 10px;
+      }
+      main {
+        max-width: 980px;
+        margin: 0 auto;
+      }
+  </style>
+</head>
+<body>
+    <main>
+      <div class="nes-container is-rounded" > 
+        <section class="message-list" style="display: none" 
+            id="resultado"></section></div>
+
+
+
+    
+
+      <hr>
+      
+      <div class="nes-field">
+        <label for="name_field">fale com o BULBASAUR</label>
+        <input type="text" placeholder="fale com o BULBASAUR" id="fale" class="nes-input">
+      </div>
+      <button type="button" class="nes-btn is-success" onclick="chatbuba()">Pesquisa</button>
+      
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
